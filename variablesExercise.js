@@ -8,7 +8,8 @@ let num = 20;
 num = 15
 
 // 4
-num = num + 7;
+num +=7
+// num = num + 7;
 // console.log(num);
 
 // 5
@@ -40,4 +41,4 @@ console.log(quarter,dime,nickel,penny);
 let letters = "qwertyuiop";
 
 // 4
-console.log(letters[9].length);
+console.log(letters[letters.length - 1]);
